@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(4, 66, 45);
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: rgb(4, 66, 45);
+}
+
+.nav-item {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: rgb(46, 145, 112);
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-underline-offset: 20px;
+}
+
+.nav-item a:hover {
+    color: rgb(46, 145, 112);
+}
+
+.active a {
+    color: rgb(46, 145, 112);
+}
+
+.return-shipping-support {
+    line-height: 15px;
+}
+
+.return-shipping-support-svg {
+    fill: rgb(4, 66, 45);
+    height: 30px;
+}
+
+.return-shipping-support h6 {
+    color: rgb(46, 145, 112);
+}
+
+.heading-and-seemore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-and-seemore h3 {
+    color: rgb(4, 66, 45);
+}
+
+.heading-and-seemore a {
+    text-decoration: none;
+    color: rgb(46, 145, 112);
+}
+
+footer {
+    background-color: rgb(4, 66, 45);
+    color: #fff;
+}
+
+footer ul {
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-icons svg {
+    height: 30px;
+    fill: #fff;
+}
+
+.terms-and-conditions {
+    font-size: 0.8rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section h1 {
+    color: rgb(46, 145, 112);
+}
+
+.submit-btn button {
+    background-color: rgb(4, 66, 45);
+    color: #fff;
+}
+
+.submit-btn button:hover {
+    background-color: rgb(46, 145, 112);
+}
+@media (min-width: 768px) {
+    footer ul {
+        gap: 25px;
+        font-size: 1rem;
+    }
+}
